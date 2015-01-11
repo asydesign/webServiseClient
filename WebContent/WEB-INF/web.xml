@@ -37,4 +37,14 @@
     <servlet-name>AxisAdminServlet</servlet-name>
     <url-pattern>/axis2-admin/*</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>OfacServlet</display-name>
+    <servlet-name>OfacServlet</servlet-name>
+    <servlet-class>fmi.st.OfacServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OfacServlet</servlet-name>
+    <url-pattern>/OfacServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -15,9 +15,11 @@ public class WsClient {
 	public static void main(String[] args) {
 		
 		try {
+
 			GetGeoIP param = new GetGeoIP();
 			param.setIPAddress("194.141.99.24");
 			
+
 			GeoIPServiceStub client = new GeoIPServiceStub();
 			GetGeoIPResponse response = client.getGeoIP(param);
 			
